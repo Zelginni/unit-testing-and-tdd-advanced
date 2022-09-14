@@ -60,17 +60,23 @@ gradle clean check bootJar jacocoTestReport pitest -i --scan --no-build-cache -D
 
 Выравнивание понимания (A)TDD (1/1)
 -----------------------------
-- [ ] Given pairs
-- [ ] When pairs align answers:
+- [х] Given pairs
+- [х] When pairs align answers:
 1. What is [TDD](https://github.com/eugene-krivosheyev/unit-testing-and-tdd#какую-ценность-дает-практика-tdd-050)?
+Практика, которая помогает разрабатывать через тесты
 1. What is [rhythm/mantra for TDD cycle](https://github.com/eugene-krivosheyev/unit-testing-and-tdd#в-каком-ритме-писать-по-tdd-1505)?
+Красный тест - Код - Зеленый тест - Рефакторинг
 1. What are [Test-Driven Development Patterns](https://github.com/eugene-krivosheyev/unit-testing-and-tdd#базовые-шаблоны-tdd-151)?
+Паттерны, по котором можно писать тесты (например, моки)
 1. What are Red Bar Patterns?
 1. What are Testing Patterns?
 1. What are Green Bar Patterns?
 1. What are the most important patterns of TDD, as you think?
+Test first, иначе это не TDD :)
 1. What is ATDD?
+Разработка через тесты по критериям приемки
 1. What is the architecture mapping between Acceptance and Unit tests? 
+Контракт
 - [ ] Then group aligns answers
 
 Что дают практики TDD и ATDD? (2/1)
